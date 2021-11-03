@@ -60,7 +60,6 @@ class NewsList extends PureComponent {
 
     editItem = (item) => {
         this.props.openModal()
-        console.log(item)
         this.props.editItem(item)
     }
 
