@@ -9,7 +9,7 @@ Após instalar o Expo Go, abra-o e leia o QRCode que está <a href="https://expo
 
 # Instruções para executar o app no computador
 
-PASSO 1:
-Executar o comando: yarn
-PASSO 2:
-Executar o comando: expo start
+PASSO 1:  
+Executar o comando: yarn. 
+PASSO 2:  
+Executar o comando: expo start  
