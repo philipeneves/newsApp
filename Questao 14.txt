@@ -1,0 +1,38 @@
+programa {
+	funcao inicio() {
+		inteiro vet[8], i, auxiliar, trocou = 1
+		vet[0] = 5
+		vet[1] = 3
+		vet[2] = 2
+		vet[3] = 4
+		vet[4] = 7
+		vet[5] = 1
+		vet[6] = 0
+		vet[7] = 6
+		
+		escreva("Vetor inicial: ")
+		
+		para (i = 0; i < 8; i++) {
+		    escreva(vet[i], " ")
+		}
+		
+		enquanto(trocou == 1) {
+		    trocou = 0
+		    para (i = 0; i < 8 - 1; i++) {
+    		    se (vet[i] > vet[i + 1]) {
+    		        auxiliar = vet[i]
+    		        vet[i] = vet[i + 1]
+    		        vet[i + 1] = auxiliar
+    		        trocou = 1
+    		    }
+    		}
+		}
+		escreva("\n")
+		escreva("Vetor final: ")
+		
+		para (i = 0; i < 8; i++) {
+		    escreva(vet[i], " ")
+		}
+		
+	}
+}
